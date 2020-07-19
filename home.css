@@ -1,0 +1,26 @@
+
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+#particles-js{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,1)), url(kk.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.particles-js-canvas-el{
+    position: absolute;  
+}
+.text{
+     color:grey;
+      font-family: 'Bungee Shade', cursive;
+     word-spacing: 2rem;
+     line-height:normal;
+}
