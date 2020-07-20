@@ -26,6 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+/*change of color*/
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(x.jpg);
    back
  
