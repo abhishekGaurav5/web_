@@ -1,6 +1,8 @@
+/* whole body font */
 *{
     font-family: 'Cardo', serif
 }
+/* body style */
 body{
     margin:0;
     padding:0;
@@ -14,12 +16,14 @@ body{
            
     
 }
+/* color of text and font style of : _MY SKILLS_ */
 .text{
     font-family: 'Bungee Shade', cursive;
     text-align: center;
     color:grey;
     margin-top:50px;
 }
+/* Display of contact icons- fb, insta, git,linked. */
 .icons{
     display: flex;
     justify-content: center;
@@ -27,12 +31,14 @@ body{
     min-height: 100vh;
 
 }
+/* padding to list class */
 .icons ul
 {
  margin:0;
  padding: 0;
  display: flex;
 }
+/* sizing of box- icons */
 .icons ul li
 {
  position:relative;
@@ -43,6 +49,7 @@ body{
  border-radius: 50%;
  box-sizing: border-box; 
 }
+
 .icons ul li:before,
 ul li:after
 {
@@ -63,6 +70,7 @@ ul li:after
 {
  filter: blur(40px);
 }
+/* hover effect */
 .icons ul li:hover:before,
 .icons ul li:hover:after
 {
@@ -89,11 +97,13 @@ ul li:after
  transform:rotateY(0deg) scale(0.8);
  opacity: 0.2;
 }
+/* hober effect */
 .icons ul li a:hover .fa
 {
  opacity: 1;
  transform:scale(1.2); 
 }
+/* color trasformation when mouse cursor goes on the icons */
 .icons ul li:nth-child(1) a,
 .icons ul li:nth-child(1):before,
 .icons ul li:nth-child(1):after

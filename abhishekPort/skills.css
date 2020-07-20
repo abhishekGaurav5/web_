@@ -1,4 +1,6 @@
+/* font family imported */
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* whole body of page */
 *
 {
     margin: 0;
@@ -8,17 +10,16 @@
     
     /* font-family: 'Shadows Into Light', cursive; */
 }
-
+/* styling to h1 tag elements */
 h1{
     color:white;
     font-family: 'Bungee Shade', cursive;
 }
-.navbar{
-    t
-}
+/* header align */
 .header{
     align-items: center;
 }
+/* body alignments */
 body{
     /* display: flex; */
     justify-content: center;
@@ -29,6 +30,7 @@ body{
  
  
 }
+/* styling to the container */
 .bottom-container{
     background-color: greenyellow;
   
@@ -48,6 +50,8 @@ body{
     color: #fff;
     
 }
+
+/* styling of skills */
 .container .skills{
     position: relative;
     display: flex;
@@ -121,6 +125,7 @@ body{
 
     }
 }
+/* styling to different skills */
 .container .skills:nth-child(2) .percent .progress{
     background: linear-gradient(45deg, #1fe6ff, #673AB7);
 
